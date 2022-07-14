@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: cursive;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(30, 30, 30);
+}
+
+.header {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 7rem;
+    color: gold;
+    padding-bottom: 4rem;
+}
+
+.cubes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cubes h1 {
+    padding-bottom: 2rem;
+    color: aqua;
+}
+
+.dice1,.dice2 {
+    padding: 3rem;
+}
+
+footer {
+    color: #ffff;
+}
